@@ -1,0 +1,36 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'start' ]
+2 info using npm@3.10.10
+3 info using node@v8.11.1
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle FE2@0.0.1~prestart: FE2@0.0.1
+6 silly lifecycle FE2@0.0.1~prestart: no script for prestart, continuing
+7 info lifecycle FE2@0.0.1~start: FE2@0.0.1
+8 verbose lifecycle FE2@0.0.1~start: unsafe-perm in lifecycle true
+9 verbose lifecycle FE2@0.0.1~start: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\ovidi\Desktop\FE2-redux\node_modules\.bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\PuTTY\;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\Program Files\Redis\;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Yarn\bin\;C:\Ruby24-x64\bin;C:\Users\ovidi\AppData\Local\Microsoft\WindowsApps;C:\Users\ovidi\AppData\Roaming\Composer\vendor\bin;C:\Users\ovidi\AppData\Local\atom\bin;C:\Users\ovidi\AppData\Local\Microsoft\WindowsApps;C:\wamp64\bin\php\php7.1.9;C:\Users\ovidi\AppData\Roaming\npm;C:\Users\ovidi\AppData\Local\Yarn\bin
+10 verbose lifecycle FE2@0.0.1~start: CWD: C:\Users\ovidi\Desktop\FE2-redux
+11 silly lifecycle FE2@0.0.1~start: Args: [ '/d /s /c',
+11 silly lifecycle   'webpack-dev-server --mode development --host 0.0.0.0 --hot --open' ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at Object._errnoException (util.js:1022:11)
+12 verbose stack     at process.kill (internal/process.js:183:18)
+12 verbose stack     at process.listener (C:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+12 verbose stack     at emitNone (events.js:111:20)
+12 verbose stack     at process.emit (events.js:208:7)
+12 verbose stack     at processEmit (C:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at processEmit (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at Signal.wrap.onsignal (internal/process.js:208:44)
+13 verbose cwd C:\Users\ovidi\Desktop\FE2-redux
+14 error Windows_NT 10.0.17134
+15 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "start"
+16 error node v8.11.1
+17 error npm  v3.10.10
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
